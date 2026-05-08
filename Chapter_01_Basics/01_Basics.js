@@ -1,0 +1,1 @@
+console.log("Hello AkshayKumar, U r successfully created Basic JS file");
