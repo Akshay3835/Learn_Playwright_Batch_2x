@@ -1,0 +1,26 @@
+# Learn Playwright Batch 2x
+
+A hands-on repository for learning Playwright automation with JavaScript fundamentals.
+
+## Structure
+
+| Chapter | Contents |
+|---------|----------|
+| **Chapter 01 - Basics** | JavaScript basics, logical operators, commands |
+| **Chapter 02 - JavaScript Concepts** | JS keywords, identifier rules, naming conventions |
+| **Chapter 03 - Identifiers** | VS Code keyboard shortcuts (Windows) |
+
+## Prerequisites
+
+- [Node.js](https://nodejs.org/)
+- [VS Code](https://code.visualstudio.com/)
+
+## Getting Started
+
+```bash
+# Clone the repo
+git clone https://github.com/Akshay3835/Learn_Playwright_Batch_2x.git
+
+# Navigate to project
+cd Learn_Playwright_Batch_2x
+```
