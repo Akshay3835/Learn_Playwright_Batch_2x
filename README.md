@@ -7,8 +7,8 @@ A hands-on repository for learning Playwright automation with JavaScript fundame
 | Chapter | Contents |
 |---------|----------|
 | **Chapter 01 - Basics** | JavaScript basics, logical operators, commands |
-| **Chapter 02 - JavaScript Concepts** | JS keywords, identifier rules, naming conventions |
-| **Chapter 03 - Identifiers** | VS Code keyboard shortcuts (Windows) |
+| **Chapter 02 - JavaScript Concepts** | JS keywords, identifier rules, naming conventions, identifiers example |
+| **Chapter 03 - Identifiers** | VS Code keyboard shortcuts (Windows), `var`/`let`/`const` concepts, function concepts, variable scoping, hoisting concepts |
 
 ## Prerequisites
 
