@@ -63,11 +63,29 @@ if (true) {
 console.log("9. var escapes block:", functionVar); // I am function-scoped
 // console.log(blockVar); // ReferenceError: blockVar is not defined
 
-// 10. Practical pattern — using function hoisting for readable code
+// 10. let in loop — each iteration gets its own binding
+for (let i = 0; i < 3; i++) {
+  setTimeout(() => console.log("10. let loop:", i), 0); // 0, 1, 2
+}
+
+// 11. typeof on let before init throws ReferenceError (TDZ)
+// console.log(typeof someLet); // ReferenceError
+let someLet = 50;
+console.log("11. typeof after init:", typeof someLet); // "number"
+
+// 12. let shadowing — inner let shadows outer let
+let outerLet = "outer";
+{
+  let outerLet = "inner";
+  console.log("12a. shadowed inner:", outerLet); // inner
+}
+console.log("12b. outer after shadow:", outerLet); // outer
+
+// 13. Practical pattern — using function hoisting for readable code
 const result1 = calculate(5, 3, "add");
 const result2 = calculate(10, 4, "subtract");
-console.log("10a. calculate add:", result1); // 8
-console.log("10b. calculate subtract:", result2); // 6
+console.log("14a. calculate add:", result1); // 8
+console.log("14b. calculate subtract:", result2); // 6
 
 function calculate(a, b, operation) {
   switch (operation) {
