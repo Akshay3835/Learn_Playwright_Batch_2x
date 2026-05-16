@@ -10,7 +10,7 @@ A hands-on repository for learning Playwright automation with JavaScript fundame
 | **Chapter 02 - JavaScript Concepts** | JS keywords, identifier rules, naming conventions, identifiers example |
 | **Chapter 03 - Identifiers & Literals** | Keywords, identifiers, literals, VS Code shortcuts (Windows) |
 | **Chapter 04 - JavaScript Concepts** | `var`/`let`/`const` concepts, function concepts, variable scoping, hoisting concepts, hoisting interview Q&A |
-| **Chapter 05 - Literals** | String, number, boolean, null, undefined literal examples |
+| **Chapter 05 - Literals** | String, number, boolean, null, undefined, backtick/template literals, all number types (binary, octal, hex, BigInt, etc.) |
 
 ## Prerequisites
 
