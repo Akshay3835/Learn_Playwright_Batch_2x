@@ -12,6 +12,7 @@ A hands-on repository for learning Playwright automation with JavaScript fundame
 | **Chapter 04 - JavaScript Concepts** | `var`/`let`/`const` concepts, function concepts, variable scoping, hoisting concepts, hoisting interview Q&A |
 | **Chapter 05 - Literals** | String, number, boolean, null, undefined, backtick/template literals, all number types (binary, octal, hex, BigInt, etc.) |
 | **Chapter 06 - Operators** | Arithmetic, modulus, exponentiation, comparison (loose vs strict), logical, string concatenation, ternary, typeof |
+| **Chapter 07 - If/Else** | If/else conditions, odd/even check, marks grading, leap year, HTTP status codes |
 
 ## Prerequisites
 
