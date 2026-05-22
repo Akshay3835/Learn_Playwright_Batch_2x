@@ -13,7 +13,9 @@ A hands-on repository for learning Playwright automation with JavaScript fundame
 | **Chapter 05 - Literals** | String, number, boolean, null, undefined, backtick/template literals, all number types (binary, octal, hex, BigInt, etc.) |
 | **Chapter 06 - Operators** | Arithmetic, modulus, exponentiation, comparison (loose vs strict), logical, string concatenation, ternary, typeof |
 | **Chapter 07 - If/Else** | If/else conditions, odd/even check, marks grading, leap year, HTTP status codes, real-world login/role check |
-| **Chapter 08 - Switch/Case** | Switch case, fall-through (no break), grouped cases (browser detection) |
+| **Chapter 08 - Switch/Case** | Switch case, fall-through (no break), grouped cases (browser detection), interview questions (fruit match, score grading, duplicate case, strict comparison gotcha) |
+| **Chapter 09 - User Input** | `prompt()`, `confirm()`, `Number()` conversion, Node.js `readline`, `prompt-sync` package |
+| **Chapter 10 - Loops** | `for` loop, `while` loop, `do-while` loop, `continue`, interview questions (infinite loops, decrementing, conditional breaks) |
 
 ## Prerequisites
 
