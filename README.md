@@ -17,6 +17,28 @@ A hands-on repository for learning Playwright automation with JavaScript fundame
 | **Chapter 09 - User Input** | `prompt()`, `confirm()`, `Number()` conversion, Node.js `readline`, `prompt-sync` package |
 | **Chapter 10 - Loops** | `for` loop, `while` loop, `do-while` loop, `continue`, interview questions (infinite loops, decrementing, conditional breaks) |
 
+## Triangle Classification (If/Else with && and ||)
+
+A JavaScript function that classifies triangles using `if`, `&&` (AND), and `||` (OR):
+
+```javascript
+function classifyTriangle(a, b, c) {
+  if (a + b > c && a + c > b && b + c > a) {
+    if (a === b && b === c) {
+      return "Equilateral"; // All 3 sides equal — uses &&
+    }
+    if (a === b || b === c || a === c) {
+      return "Isosceles";   // Any 2 sides equal — uses ||
+    }
+    return "Scalene";       // No sides equal
+  }
+  return "Not a valid triangle";
+}
+```
+
+- **`&&` (AND)**: Used when **every** condition must be true (e.g., all sides equal for Equilateral, or all triangle inequalities must hold).
+- **`||` (OR)**: Used when **any one** condition being true is enough (e.g., at least one pair equal for Isosceles).
+
 ## Prerequisites
 
 - [Node.js](https://nodejs.org/)
