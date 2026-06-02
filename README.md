@@ -15,7 +15,8 @@ A hands-on repository for learning Playwright automation with JavaScript fundame
 | **Chapter 07 - If/Else** | If/else conditions, odd/even check, marks grading, leap year, HTTP status codes, real-world login/role check |
 | **Chapter 08 - Switch/Case** | Switch case, fall-through (no break), grouped cases (browser detection), interview questions (fruit match, score grading, duplicate case, strict comparison gotcha) |
 | **Chapter 09 - User Input** | `prompt()`, `confirm()`, `Number()` conversion, Node.js `readline`, `prompt-sync` package |
-| **Chapter 10 - Loops** | `for` loop, `while` loop, `do-while` loop, `continue`, interview questions (infinite loops, decrementing, conditional breaks), Task 1 (Triangle classification with `&&`/`||`), Task 2 (FizzBuzz) |
+| **Chapter 10 - Loops** | `for` loop, `while` loop, `do-while` loop, `continue`, interview questions (infinite loops, decrementing, conditional breaks), scoping IQ, Task 1 (Triangle classification with `&&`/`||`), Task 2 (FizzBuzz) |
+| **Chapter 11 - Arrays** | Array creation (literal, constructor, `Array.of()`, `Array.from()`), accessing elements (`at`, index), adding/removing (`push`, `pop`, `unshift`, `shift`, `splice`), searching (`indexOf`, `lastIndexOf`, `includes`, `find`, `findIndex`, `findLast`, `findLastIndex`), iterations (`for`, `for...of`, `forEach`, `for...in`), transformations (`map`, `filter`, `reduce`, `flat`) |
 
 ## Triangle Classification (If/Else with && and ||)
 

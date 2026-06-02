@@ -35,3 +35,7 @@ console.log( "Number:", num, "->", result );
 let akshay_Age = 42;
 let he_can_vote = akshay_Age > 18 ? ( akshay_Age >= 18 ? "he_can_vote" : "No he cant vote" ) : "No";
 console.log( he_can_vote );
+
+let nums = 0;
+let results = nums > 0 ? "positive" : nums < 0 ? "Negative" : "Zero";
+console.log( " Number:", nums, "->", results );
