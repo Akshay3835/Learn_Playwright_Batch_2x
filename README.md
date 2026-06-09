@@ -18,6 +18,7 @@ A hands-on repository for learning Playwright automation with JavaScript fundame
 | **Chapter 10 - Loops** | `for` loop, `while` loop, `do-while` loop, `continue`, interview questions (infinite loops, decrementing, conditional breaks), scoping IQ, Task 1 (Triangle classification with `&&`/`||`), Task 2 (FizzBuzz) |
 | **Chapter 11 - Arrays** | Array creation (literal, constructor, `Array.of()`, `Array.from()`), accessing elements (`at`, index), adding/removing (`push`, `pop`, `unshift`, `shift`, `splice`), searching (`indexOf`, `lastIndexOf`, `includes`, `find`, `findIndex`, `findLast`, `findLastIndex`), iterations (`for`, `for...of`, `forEach`, `for...in`), transformations (`map`, `filter`, `reduce`, `flat`), sorting (`sort`, numeric compare), slicing (`slice`) |
 | **Chapter 12 - Functions** | Basic function, function types (with/without args, with/without return), template literals, function expressions, arrow functions, real-world arrow functions, IIFE, default parameters, rest parameters, spread operator, scope, closures (2 files), real-world closure (API example), higher-order functions, pure functions, interview questions (4 files) |
+| **Chapter 13 - Strings** | String basics, properties/length, search & check methods, substring extraction (slice/substring), transformation (case/trim/replace/split), type conversion, string methods interview cheat sheet |
 
 ## Triangle Classification (If/Else with && and ||)
 
