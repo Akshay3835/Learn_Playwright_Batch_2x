@@ -1,54 +1,58 @@
 # Learn Playwright Batch 2x
 
-A hands-on repository for learning Playwright automation with JavaScript fundamentals.
+> A hands-on repository for learning Playwright automation with JavaScript fundamentals.
 
-## Structure
+---
 
-| Chapter | Contents |
-|---------|----------|
-| **Chapter 01 - Basics** | JavaScript basics, logical operators, commands |
-| **Chapter 02 - JavaScript Concepts** | JS keywords, identifier rules, naming conventions, identifiers example |
-| **Chapter 03 - Identifiers & Literals** | Keywords, identifiers, literals, VS Code shortcuts (Windows) |
-| **Chapter 04 - JavaScript Concepts** | `var`/`let`/`const` concepts, function concepts, variable scoping, hoisting concepts, hoisting interview Q&A |
-| **Chapter 05 - Literals** | String, number, boolean, null, undefined, backtick/template literals, all number types (binary, octal, hex, BigInt, etc.) |
-| **Chapter 06 - Operators** | Arithmetic, modulus, exponentiation, comparison (loose vs strict), logical, string concatenation, ternary, typeof |
-| **Chapter 07 - If/Else** | If/else conditions, odd/even check, marks grading, leap year, HTTP status codes, real-world login/role check |
-| **Chapter 08 - Switch/Case** | Switch case, fall-through (no break), grouped cases (browser detection), interview questions (fruit match, score grading, duplicate case, strict comparison gotcha) |
-| **Chapter 09 - User Input** | `prompt()`, `confirm()`, `Number()` conversion, Node.js `readline`, `prompt-sync` package |
-| **Chapter 10 - Loops** | `for` loop, `while` loop, `do-while` loop, `continue`, interview questions (infinite loops, decrementing, conditional breaks), scoping IQ, Task 1 (Triangle classification with `&&`/`||`), Task 2 (FizzBuzz) |
-| **Chapter 11 - Arrays** | Array creation (literal, constructor, `Array.of()`, `Array.from()`), accessing elements (`at`, index), adding/removing (`push`, `pop`, `unshift`, `shift`, `splice`), searching (`indexOf`, `lastIndexOf`, `includes`, `find`, `findIndex`, `findLast`, `findLastIndex`), iterations (`for`, `for...of`, `forEach`, `for...in`), transformations (`map`, `filter`, `reduce`, `flat`), sorting (`sort`, numeric compare), slicing (`slice`) |
-| **Chapter 12 - Functions** | Basic function, function types (with/without args, with/without return), template literals, function expressions, arrow functions, real-world arrow functions, IIFE, default parameters, rest parameters, spread operator, scope, closures (2 files), real-world closure (API example), higher-order functions, pure functions, interview questions (4 files) |
-| **Chapter 13 - Strings** | String basics, properties/length, search & check methods, substring extraction (slice/substring), transformation (case/trim/replace/split), type conversion, string methods interview cheat sheet |
-| **Chapter 14 - Objects** | Object creation, properties, object literal example (ENV/USER/CART/API_RESPONSE/CONFIG), why `const` over `let` for objects (accidental reassignment, shadowing, nulling) |
+## 📂 Chapter Overview
 
-## Triangle Classification (If/Else with && and ||)
+| # | Chapter | Topics Covered |
+|---|---------|---------------|
+| 01 | **Basics** | JavaScript basics, logical operators, commands |
+| 02 | **JavaScript Concepts** | JS keywords, identifier rules, naming conventions |
+| 03 | **Identifiers & Literals** | Keywords, identifiers, literals, VS Code shortcuts |
+| 04 | **JavaScript Concepts** | `var` / `let` / `const`, function concepts, scoping, hoisting |
+| 05 | **Literals** | String, number, boolean, null, undefined, template literals, binary, octal, hex, BigInt |
+| 06 | **Operators** | Arithmetic, modulus, exponentiation, comparison, logical, ternary, typeof |
+| 07 | **If/Else** | Conditions, odd/even, grading, leap year, HTTP status, real-world login/role |
+| 08 | **Switch/Case** | Fall-through, grouped cases, interview Q&A |
+| 09 | **User Input** | `prompt()`, `confirm()`, `Number()`, Node.js `readline`, `prompt-sync` |
+| 10 | **Loops** | `for`, `while`, `do-while`, `continue`, interview Q&A, Triangle Classification, FizzBuzz |
+| 11 | **Arrays** | Creation, access, CRUD, search, iteration, `map`/`filter`/`reduce`/`flat`, sort, slice |
+| 12 | **Functions** | Function types, arrow functions, IIFE, params/spread, scope, closures, HOF, pure functions, interview Q&A |
+| 13 | **Strings** | Properties, search, substring, transformation, type conversion, cheat sheet |
+| 14 | **Objects** | Creation, properties, real-world objects, `const` vs `let` for objects |
 
-A JavaScript function that classifies triangles using `if`, `&&` (AND), and `||` (OR):
+---
+
+## 🧠 Featured Concept
+
+### Triangle Classification with `&&` and `||`
 
 ```javascript
 function classifyTriangle(a, b, c) {
   if (a + b > c && a + c > b && b + c > a) {
-    if (a === b && b === c) {
-      return "Equilateral"; // All 3 sides equal — uses &&
-    }
-    if (a === b || b === c || a === c) {
-      return "Isosceles";   // Any 2 sides equal — uses ||
-    }
-    return "Scalene";       // No sides equal
+    if (a === b && b === c) return "Equilateral";
+    if (a === b || b === c || a === c) return "Isosceles";
+    return "Scalene";
   }
   return "Not a valid triangle";
 }
 ```
 
-- **`&&` (AND)**: Used when **every** condition must be true (e.g., all sides equal for Equilateral, or all triangle inequalities must hold).
-- **`||` (OR)**: Used when **any one** condition being true is enough (e.g., at least one pair equal for Isosceles).
+| Operator | Role |
+|----------|------|
+| `&&` (AND) | All conditions must be true |
+| `||` (OR)  | At least one condition must be true |
 
-## Prerequisites
+---
+
+## 🛠 Prerequisites
 
 - [Node.js](https://nodejs.org/)
 - [VS Code](https://code.visualstudio.com/)
 
-## Getting Started
+## 🚀 Getting Started
 
 ```bash
 # Clone the repo
