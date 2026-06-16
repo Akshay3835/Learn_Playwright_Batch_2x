@@ -24,6 +24,7 @@
 | 14 | **Objects** | Creation, properties, real-world objects, `const` vs `let` for objects |
 | 15 | **2D Array** | 2D arrays, array methods, interview Q&A, real-world examples |
 | 16 | **Callbacks** | Sync/async callbacks, Playwright callbacks, callback hell (pyramid of doom), E2E flow simulation |
+| 17 | **Promises** | Promise creation, resolve/reject, real-world API examples, finally block |
 
 ---
 
