@@ -25,7 +25,7 @@
 | 15 | **2D Array** | 2D arrays, array methods, interview Q&A, real-world examples |
 | 16 | **Callbacks** | Sync/async callbacks, Playwright callbacks, callback hell (pyramid of doom), E2E flow simulation |
 | 17 | **Promises** | Promise creation, resolve/reject, real-world API examples, finally block, callback problem, Promise.all, interview Q&A |
-| 18 | **Async & Await** | Async functions, await syntax, async/await patterns |
+| 18 | **Async & Await** | Async functions, Promise-based DOM, parallel/sequential execution, interview Q&A, Playwright login test |
 
 ---
 
@@ -64,4 +64,17 @@ git clone https://github.com/Akshay3835/Learn_Playwright_Batch_2x.git
 
 # Navigate to project
 cd Learn_Playwright_Batch_2x
+
+# Install dependencies
+npm install
+
+# Install Playwright browsers
+npx playwright install
+
+# Run Playwright tests
+npx playwright test
 ```
+
+## 🤖 CI/CD
+
+This repo uses [GitHub Actions](.github/workflows/playwright.yml) to run Playwright tests on every push to the `master` branch. Tests run across Chromium, Firefox, and WebKit.
