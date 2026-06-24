@@ -28,6 +28,9 @@
 | 18 | **Async & Await** | Async functions, Promise-based DOM, parallel/sequential execution, interview Q&A, Playwright login test |
 | 19 | **Playwright Basics** | Project setup, configuration, cross-browser projects (Chromium, Firefox, WebKit), writing tests with `page.goto()` and `expect`, HTML reporter |
 | 20 | **TypeScript Basics** | JS module system (named/default exports, `as` aliasing), classes, constructors, private fields (`#`), static members, real-world OOP modeling |
+| 21 | **Class & Object** | JS class creation, attributes, methods, object instantiation, real-world object modeling |
+| 22 | **Encapsulation** | Private fields (`#`), getters/setters, encapsulation in banking/Car real-world examples |
+| — | **Task Exercise** | Practice tasks — string reversal, palindrome check |
 
 ---
 
