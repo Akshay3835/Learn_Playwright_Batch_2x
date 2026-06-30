@@ -32,6 +32,7 @@
 | 22 | **Encapsulation** | Private fields (`#`), getters/setters, encapsulation in banking/Car real-world examples |
 | 23 | **Inheritance** | Single, multi-level, hierarchical inheritance, method overriding, real-world POM model |
 | 24 | **Polymorphism** | Method overriding, runtime polymorphism, real-world test automation examples |
+| 25 | **OOP Interview Q&A** | OOP class design, bug tracking model, real-world interview examples |
 | — | **Task Exercise** | Practice tasks — string reversal, palindrome check |
 
 ---
