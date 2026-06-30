@@ -30,6 +30,8 @@
 | 20 | **TypeScript Basics** | JS module system (named/default exports, `as` aliasing), classes, constructors, private fields (`#`), static members, real-world OOP modeling |
 | 21 | **Class & Object** | JS class creation, attributes, methods, object instantiation, real-world object modeling |
 | 22 | **Encapsulation** | Private fields (`#`), getters/setters, encapsulation in banking/Car real-world examples |
+| 23 | **Inheritance** | Single, multi-level, hierarchical inheritance, method overriding, real-world POM model |
+| 24 | **Polymorphism** | Method overriding, runtime polymorphism, real-world test automation examples |
 | — | **Task Exercise** | Practice tasks — string reversal, palindrome check |
 
 ---
